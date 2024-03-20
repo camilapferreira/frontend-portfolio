@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+.navigation-links {
+  display: flex;
+  text-decoration: none;
+  padding: 20px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
