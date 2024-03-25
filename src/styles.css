@@ -1,4 +1,18 @@
+:root {
+  --primary-color: rgb(131, 78, 210);
+  --secondary-color: #381073;
+  --alternative-color: rgb(220, 200, 223);
+  --border: 1px solid var(--primary-color);
+  --background-gradient: linear-gradient(
+    270deg,
+    rgba(60, 55, 190, 0.3) 3.2%,
+    rgba(131, 78, 210, 0.3) 90.3%
+  );
+}
+
 body {
+  background: var(--background-gradient);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 .navigation-links {
@@ -9,9 +23,15 @@ body {
 }
 
 .navigation-links a {
-  border: 1px solid gray;
+  border: var(--border);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--alternative-color);
+}
+
+a:hover {
+  background-color: var(--secondary-color);
 }
