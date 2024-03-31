@@ -42,3 +42,11 @@ body {
   color: var(--secondary-color);
   border: none;
 }
+
+.app-about {
+  text-align: justify;
+}
+
+footer {
+  padding: 20px 10px;
+}
