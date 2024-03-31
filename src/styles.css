@@ -11,7 +11,6 @@
 }
 
 body {
-  background: var(--background-gradient);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
@@ -34,12 +33,12 @@ body {
   border-radius: 10px;
   text-decoration: none;
   background-color: var(--primary-color);
-  color: var(--alternative-color);
+  color: white;
 }
 
 .navigation-links a:hover {
   background-color: var(--alternative-color);
-  color: var(--secondary-color);
+  color: white;
   border: none;
 }
 
@@ -49,4 +48,16 @@ body {
 
 footer {
   padding: 20px 10px;
+}
+
+.btn {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--alternative-color) !important;
+  color: var(--secondary-color) !important;
+  border: none;
 }
