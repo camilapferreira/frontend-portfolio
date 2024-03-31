@@ -15,11 +15,16 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
+.btn-bd-primary {
+  background: var(--primary-color);
+  color: var(--alternative-color);
+}
+
 .navigation-links {
   display: flex;
   text-decoration: none;
   padding: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .navigation-links a {
@@ -30,4 +35,10 @@ body {
   text-decoration: none;
   background-color: var(--primary-color);
   color: var(--alternative-color);
+}
+
+.navigation-links a:hover {
+  background-color: var(--alternative-color);
+  color: var(--secondary-color);
+  border: none;
 }
