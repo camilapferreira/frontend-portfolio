@@ -69,6 +69,9 @@ body {
   padding: 10px;
   font-size: 18px;
 }
+.button-section {
+  margin: 40px 0px 20px;
+}
 
 .general-button:hover {
   box-shadow: var(--box-shadow);
@@ -98,6 +101,9 @@ footer a {
 .page-title-general {
   color: var(--white);
   text-align: center;
+}
+.card {
+  border: var(--border);
 }
 
 .card-body {
