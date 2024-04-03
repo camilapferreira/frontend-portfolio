@@ -28,10 +28,10 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   background: var(--dark-navy);
+  padding-inline-start: 40px;
 }
 
 .hero {
-  padding-inline-start: 50px;
   line-height: 37px;
   margin: 40px 10px;
 }
