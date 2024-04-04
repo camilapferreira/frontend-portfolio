@@ -25,6 +25,10 @@
   color: var(--green) !important;
 }
 
+.navbar-toggler {
+  background: var(--green);
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   background: var(--dark-navy);
